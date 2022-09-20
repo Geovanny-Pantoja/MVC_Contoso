@@ -23,6 +23,33 @@ namespace MVC_Contoso.Controllers
             return View();
         }
 
+        public IActionResult Sessions()
+        {
+            List<Session> sessionsList = new();
+            Session sessionOne = new Session(1, "Linux", "Anu");
+            Session sessionTwo = new Session(2, "Windows", "Alex");
+            Session sessionThree = new Session(3, "Mac", "Trevon");
+
+            sessionsList.Add(sessionOne);
+            sessionsList.Add(sessionTwo);
+            sessionsList.Add(sessionThree);
+
+            Sessions sessions = new Sessions()
+            {
+                sessionsList = sessionsList
+            };
+
+            return View(sessions);
+        }
+
+
+        public IActionResult SessionDetails()
+        {
+            Sessions sessionOne = new Sessions(1, "Linux", "Anu");
+
+            return View(sessionOne);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
