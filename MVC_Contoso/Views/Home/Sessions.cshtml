@@ -1,33 +1,15 @@
-
 @model Sessions
 @{
     ViewData["Title"] = "Sessions";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p>Review different sessions</p>
 
-<ul>
-    @*@{List<Sessions> sessionsList = new();
-    Sessions sessionOne = new Sessions(1, "Linux", "Anu");
-    Sessions sessionTwo = new Sessions(2, "Windows", "Alex");
-    Sessions sessionThree = new Sessions(3, "Mac", "Trevon");
-
-    sessionsList.Add(sessionOne);
-    sessionsList.Add(sessionTwo);
-    sessionsList.Add(sessionThree);
-
-    foreach (var session in sessionsList)
-    {
-        <li>
-            room: <code>@Model.sessioniD</code>
-        </li>
-    }
-}*@
-    
+<div class="list-group">
     @foreach (var session in Model.sessionsList)
     {
-        <li><a href="#">@session.SessionName</a></li>
-
+        <a class="list-group-item list-group-item-action list-group-item-primary" href="./SessionDetails/@session.SessionId">@session.SessionName</a>
     }
-</ul>
+
+</div>

@@ -13,16 +13,5 @@
         {
             this.sessionsList = sessions;
         }
-
-        public Sessions(int sessioniD, string sessionName, string speaker)
-        {
-            var session = new Session()
-            {
-                SessionId = sessioniD,
-                SessionName = sessionName,
-                Speaker = speaker
-            };
-        }
-
     }
 }

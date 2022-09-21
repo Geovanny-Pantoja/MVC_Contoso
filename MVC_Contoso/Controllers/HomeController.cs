@@ -1,15 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVC_Contoso.Models;
+using MVC_Contoso.Services;
 using System.Diagnostics;
 
 namespace MVC_Contoso.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ISessionService _service;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            ISessionService service,
+            ILogger<HomeController> logger)
         {
+            _service = service;
             _logger = logger;
         }
 
@@ -25,29 +30,36 @@ namespace MVC_Contoso.Controllers
 
         public IActionResult Sessions()
         {
-            List<Session> sessionsList = new();
-            Session sessionOne = new Session(1, "Linux", "Anu");
-            Session sessionTwo = new Session(2, "Windows", "Alex");
-            Session sessionThree = new Session(3, "Mac", "Trevon");
-
-            sessionsList.Add(sessionOne);
-            sessionsList.Add(sessionTwo);
-            sessionsList.Add(sessionThree);
-
-            Sessions sessions = new Sessions()
-            {
-                sessionsList = sessionsList
-            };
-
+            _service.Initialize();
+            var sessions = _service.GetSessions();
             return View(sessions);
         }
 
 
-        public IActionResult SessionDetails()
+        public IActionResult SessionDetails(int roomId)
         {
-            Sessions sessionOne = new Sessions(1, "Linux", "Anu");
+            var sessionDetails = _service.GetSession(roomId);
+            return View(sessionDetails);
+        }
 
-            return View(sessionOne);
+        public IActionResult SeatReservation(int roomId)
+        {
+            var seatReserved = _service.ReserveSeat(roomId);
+            var roomDetail = _service.GetSession(roomId);
+
+            if (seatReserved)
+            {
+                return View(roomDetail);
+            }
+            else
+            {
+                return RedirectToAction("SeatsUnavailable", false);
+            }
+        }
+
+        public IActionResult SeatsUnavailable()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

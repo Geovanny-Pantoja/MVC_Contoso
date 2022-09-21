@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TjJBo6Z5ZMVF6XtyW644iyAC6Emt8PdhgP/Vw0Z4YFg=",
+  "Hash": "Q3cDaH5fJSIHbsXuWpknriy+YTabvyqIPjmjN62rSok=",
   "Source": "MVC_Contoso",
   "BasePath": "_content/MVC_Contoso",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\wwwroot\\Data\\appsettings.json",
+      "SourceId": "MVC_Contoso",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\wwwroot\\",
+      "BasePath": "_content/MVC_Contoso",
+      "RelativePath": "Data/appsettings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\appsettings.json"
+    },
+    {
+      "Identity": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\wwwroot\\Data\\Sessions.json",
+      "SourceId": "MVC_Contoso",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\wwwroot\\",
+      "BasePath": "_content/MVC_Contoso",
+      "RelativePath": "Data/Sessions.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Sessions.json"
     },
     {
       "Identity": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\wwwroot\\favicon.ico",
