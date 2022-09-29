@@ -8,35 +8,31 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Geovanny Pantoja\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\CAD\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\MVC_Contoso.csproj",
+      "projectUniqueName": "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\MVC_Contoso.csproj",
       "projectName": "MVC_Contoso",
-      "projectPath": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\MVC_Contoso.csproj",
-      "packagesPath": "C:\\Users\\Geovanny Pantoja\\.nuget\\packages\\",
-      "outputPath": "C:\\SkillMeUp\\Anuprojects\\MVC_Contoso\\MVC_Contoso\\obj\\",
+      "projectPath": "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\MVC_Contoso.csproj",
+      "packagesPath": "C:\\Users\\CAD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Geovanny Pantoja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
