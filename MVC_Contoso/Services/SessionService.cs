@@ -66,15 +66,15 @@ namespace MVC_Contoso.Services
 
         public Session GetSession(int roomId)
         {
-            Session session = _sessions.sessionsList[roomId - 1];
+            Session session = _sessions.sessionsList[roomId];
             return session;
         }
 
         public bool ReserveSeat(int roomId)
         {
-            if (_sessions.sessionsList[roomId - 1].SeatsAvailable > 0)
+            if (_sessions.sessionsList[roomId].SeatsAvailable > 0)
             {
-                _sessions.sessionsList[roomId - 1].SeatsAvailable -= 1;
+                _sessions.sessionsList[roomId].SeatsAvailable -= 1;
                 return true;
             }
             else
