@@ -2,6 +2,7 @@
 using MVC_Contoso.Models;
 using MVC_Contoso.Services;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Http;
 
 namespace MVC_Contoso.Controllers
 {
@@ -20,6 +21,20 @@ namespace MVC_Contoso.Controllers
 
         public IActionResult Index()
         {
+            string greetings = "";
+            if (!HttpContext.Request.Cookies.ContainsKey("UserCookie"))
+            {
+                int randomId = new Random().Next(1, 1000000);
+                HttpContext.Response.Cookies.Append("UserCookie", randomId.ToString());
+                greetings = "Welcome to the Consoto registration app!";
+                ViewBag.greetings = greetings;
+            }
+            else
+            {
+                var userId = HttpContext.Request.Cookies["UserCookie"];
+                greetings = $"Welcome back, user {userId}!";
+                ViewBag.greetings = greetings;
+            }
             return View();
         }
 
