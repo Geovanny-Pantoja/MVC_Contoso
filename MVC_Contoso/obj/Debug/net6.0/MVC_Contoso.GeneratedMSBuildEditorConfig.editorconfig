@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC_Contoso
 build_property.RootNamespace = MVC_Contoso
-build_property.ProjectDir = C:\Users\CAD\source\repos\MVC-Consoto\MVC_Contoso\
+build_property.ProjectDir = C:\Users\Grant\source\repos\MVC_Contoso\MVC_Contoso\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\CAD\source\repos\MVC-Consoto\MVC_Contoso
+build_property.MSBuildProjectDirectory = C:\Users\Grant\source\repos\MVC_Contoso\MVC_Contoso
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Home/Index.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Home/Privacy.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Home/SeatReservation.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Home/SeatReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWF0UmVzZXJ2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Home/SeatsUnavailable.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Home/SeatsUnavailable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWF0c1VuYXZhaWxhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Home/SessionDetails.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Home/SessionDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXNzaW9uRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Home/Sessions.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Home/Sessions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXNzaW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Shared/Error.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/_ViewImports.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/_ViewStart.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CAD/source/repos/MVC-Consoto/MVC_Contoso/Views/Shared/_Layout.cshtml]
+[C:/Users/Grant/source/repos/MVC_Contoso/MVC_Contoso/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dq0kr8ogf9

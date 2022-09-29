@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\MVC_Contoso.csproj": {}
+    "C:\\Users\\Grant\\source\\repos\\MVC_Contoso\\MVC_Contoso\\MVC_Contoso.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\MVC_Contoso.csproj": {
+    "C:\\Users\\Grant\\source\\repos\\MVC_Contoso\\MVC_Contoso\\MVC_Contoso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\MVC_Contoso.csproj",
+        "projectUniqueName": "C:\\Users\\Grant\\source\\repos\\MVC_Contoso\\MVC_Contoso\\MVC_Contoso.csproj",
         "projectName": "MVC_Contoso",
-        "projectPath": "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\MVC_Contoso.csproj",
-        "packagesPath": "C:\\Users\\CAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CAD\\source\\repos\\MVC-Consoto\\MVC_Contoso\\obj\\",
+        "projectPath": "C:\\Users\\Grant\\source\\repos\\MVC_Contoso\\MVC_Contoso\\MVC_Contoso.csproj",
+        "packagesPath": "C:\\Users\\Grant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Grant\\Source\\Repos\\MVC_Contoso\\MVC_Contoso\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Grant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

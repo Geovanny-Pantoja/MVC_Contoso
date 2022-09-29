@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="compilerconfig.json" />
     <Content Remove="wwwroot\Data\NewFile.txt" />
   </ItemGroup>
 
@@ -34,6 +35,10 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Views\Home\SeatsUnavailable.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
   </ItemGroup>
 
 </Project>
